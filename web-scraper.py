@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
-driver=webdriver.chrome("/usr/lib/chromium-browser/chromedriver")
+driver=webdriver.chrome("/url/lib/chromium-browser/chromedriver")
 products=[]
 prices=[]
 ratings=[]
