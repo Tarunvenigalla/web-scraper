@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url=('https://www.amazon.in/HP-Zbook-Power-Dedicated-Microsoft/dp/B0BNJ5YRKT/ref=sr_1_1_sspa?crid=21I4F9T1QQYQQ&keywords=laptops&qid=1690451539&sprefix=laptops%2Caps%2C249&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1')
+url=(input('Enter URL :'))
 response=requests.get(url)
 html=response.content
 soup=BeautifulSoup(html,"html.parser")
